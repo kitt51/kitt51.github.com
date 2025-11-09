@@ -1,0 +1,30 @@
+baseURL = 'https://github.com.kitt51/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hornet'
+
+[menus]
+  [[menus.main]]
+    name = 'Kitt51'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 30
+
+[params]
+  [[params.links]]
+  name = "github" 
+  url = 'https://github.com/kitt51'
