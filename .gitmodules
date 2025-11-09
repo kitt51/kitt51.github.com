@@ -1,0 +1,3 @@
+[submodule "themes/hornet"]
+	path = themes/hornet
+	url = https://github.com/kitt51/hornet
