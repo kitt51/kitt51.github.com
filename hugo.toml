@@ -28,3 +28,7 @@ theme = 'hornet'
   [[params.links]]
   name = "github" 
   url = 'https://github.com/kitt51'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
